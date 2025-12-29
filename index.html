@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Legends Blog</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">ROCK LEGENDS</div>
+                <div class="nav-links">
+                    <a href="index.html">Inicio</a>
+                    <a href="#">Bandas</a>
+                    <a href="#">Contacto</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content fade-in">
+            <h1>Bienvenido a la Jungla</h1>
+            <p>La historia del rock contada sin censura.</p>
+            <a href="#latest" class="btn">Leer Blog</a>
+        </div>
+    </section>
+
+    <main id="latest" class="container latest-posts">
+        <h2 class="section-title fade-in">Últimos Artículos</h2>
+        
+        <div class="posts-grid">
+            <!-- Guns N' Roses Card -->
+            <article class="post-card fade-in">
+                <div class="post-image" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Guns_N%27_Roses_Concert_2016.jpg/800px-Guns_N%27_Roses_Concert_2016.jpg');"></div>
+                <div class="post-content">
+                    <div class="post-meta">28 Dic 2025 | Historia del Rock</div>
+                    <h3>La Historia de Guns N' Roses</h3>
+                    <p>Desde los clubes de L.A. hasta dominar el mundo. Descubre cómo Axl, Slash y compañía redefinieron el Hard Rock.</p>
+                    <a href="blog/guns-n-roses.html" class="btn" style="margin-top: 15px;">Leer Más</a>
+                </div>
+            </article>
+
+            <!-- Placeholder Cards -->
+            <article class="post-card fade-in" style="transition-delay: 0.2s;">
+                <div class="post-image" style="background-color: #333; display: flex; align-items: center; justify-content: center;">
+                    <span style="color: #666;">Próximamente</span>
+                </div>
+                <div class="post-content">
+                    <div class="post-meta">Próximamente</div>
+                    <h3>Más Historias de Rock</h3>
+                    <p>Estamos preparando más artículos sobre tus bandas favoritas. ¡Mantente atento!</p>
+                    <a href="#" class="btn" style="margin-top: 15px; background-color: #444;">Próximamente</a>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Rock Legends Blog. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
