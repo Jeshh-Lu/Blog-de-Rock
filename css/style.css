@@ -1,17 +1,18 @@
-
 :root {
-    --bg-color: #121212;
-    --card-bg: #1e1e1e;
-    --text-primary: #ffffff;
-    --text-secondary: #b3b3b3;
-    --accent-color: #d32f2f;
-    --accent-hover: #b71c1c;
+    --bg-color: #0d1117;
+    --card-bg: #161b22;
+    --text-primary: #e6edf3;
+    --text-secondary: #8b949e;
+    --accent-color: #2f81f7;
+    --accent-hover: #1f6feb;
     --font-heading: 'Oswald', sans-serif;
     --font-body: 'Roboto', sans-serif;
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -25,7 +26,12 @@ body {
     line-height: 1.6;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--font-heading);
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -73,7 +79,7 @@ img {
 
 /* Header */
 header {
-    background-color: rgba(18, 18, 18, 0.95);
+    background-color: rgba(13, 17, 23, 0.95);
     padding: 20px 0;
     position: sticky;
     top: 0;
@@ -110,7 +116,8 @@ nav {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1498038432885-c6f3f1b912ee?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'); /* Placeholder Rock Image */
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1498038432885-c6f3f1b912ee?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+    /* Placeholder Rock Image */
     background-size: cover;
     background-position: center;
     position: relative;
@@ -120,7 +127,7 @@ nav {
     font-size: 4rem;
     margin-bottom: 20px;
     color: var(--accent-color);
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 .hero-content p {
@@ -138,7 +145,7 @@ nav {
     font-size: 2.5rem;
     margin-bottom: 40px;
     text-align: center;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #30363d;
     padding-bottom: 20px;
 }
 
@@ -221,7 +228,7 @@ nav {
 
 /* Footer */
 footer {
-    background-color: #000;
+    background-color: #161b22;
     padding: 40px 0;
     text-align: center;
     color: var(--text-secondary);
@@ -245,7 +252,7 @@ footer {
     .hero-content h1 {
         font-size: 2.5rem;
     }
-    
+
     .post-header h1 {
         font-size: 2.5rem;
     }
