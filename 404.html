@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Página No Encontrada - Jeshh</title>
+    <link rel="website icon" href="image/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <style>
+        .error-page {
+            min-height: 60vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .error-code {
+            font-size: 10rem;
+            line-height: 1;
+            font-family: var(--font-heading);
+            color: transparent;
+            -webkit-text-stroke: 2px var(--accent-color);
+            text-shadow: 0 0 30px rgba(0, 243, 255, 0.5);
+            margin-bottom: 20px;
+            position: relative;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                text-shadow: 0 0 30px rgba(0, 243, 255, 0.5);
+            }
+
+            50% {
+                text-shadow: 0 0 50px rgba(0, 243, 255, 0.8), 0 0 10px rgba(188, 19, 254, 0.5);
+            }
+
+            100% {
+                text-shadow: 0 0 30px rgba(0, 243, 255, 0.5);
+            }
+        }
+
+        .error-message {
+            font-size: 2rem;
+            color: var(--text-primary);
+            margin-bottom: 15px;
+        }
+
+        .error-description {
+            color: var(--text-secondary);
+            margin-bottom: 40px;
+            max-width: 600px;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Jeshh</a>
+                <div class="nav-links">
+                    <a href="index.html">Inicio</a>
+                    <a href="bandas.html">Bandas</a>
+                    <a href="contacto.html">Contacto</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container error-page fade-in">
+        <h1 class="error-code">404</h1>
+        <h2 class="error-message">¿Te perdiste en la jungla?</h2>
+        <p class="error-description">La página que buscas no existe o ha sido movida a otro escenario. Regresa antes de
+            que se apaguen las luces.</p>
+        <a href="index.html" class="btn">Volver al Inicio</a>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo footer-logo">
+                    <i class="ph ph-music-note"></i>
+                    <span>Jeshh</span>
+                </a>
+                <p id="footer-text">© 2025 Jeshh.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4>Legal</h4>
+                    <a href="404.html">Privacidad</a>
+                    <a href="404.html">Términos</a>
+                    <a href="404.html">Cookies</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/jeshh.xd/" aria-label="Instagram"><i
+                            class="ph ph-instagram-logo"></i></a>
+                    <a href="https://github.com/Jeshh-Lu" aria-label="GitHub"><i class="ph ph-github-logo"></i></a>
+                    <a href="https://www.linkedin.com/in/jeshuaolguin/" aria-label="LinkedIn"><i
+                            class="ph ph-linkedin-logo"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
